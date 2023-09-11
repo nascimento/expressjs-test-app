@@ -1,0 +1,10 @@
+app: expressjs-test-app
+env: skilled-tree
+namespace: default
+chart:
+  repository: https://chart.onechart.dev
+  name: onechart
+  version: 0.57.0
+values:
+  gitRepository: nascimento/expressjs-test-app
+  gitSha: '{{ .SHA }}'
