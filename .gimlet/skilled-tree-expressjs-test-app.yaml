@@ -8,3 +8,5 @@ chart:
 values:
   gitRepository: nascimento/expressjs-test-app
   gitSha: '{{ .SHA }}'
+  vars:
+    newKey: New Value
